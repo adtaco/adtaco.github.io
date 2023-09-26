@@ -32,6 +32,8 @@
     "@tsconfig/docusaurus": "^2.0.1",
     "@whyframe/core": "^0.1.10",
     "@whyframe/jsx": "^0.1.9",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.30",
     "postcss-import": "^15.1.0",
