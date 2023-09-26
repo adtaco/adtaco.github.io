@@ -1,0 +1,45 @@
+@layer base {
+  table {
+    @apply table mb-0;
+  }
+
+  img,
+  svg,
+  video,
+  canvas,
+  audio,
+  iframe,
+  embed,
+  object {
+    @apply inline;
+  }
+}
+
+.navbar {
+  height: auto;
+  position: relative;
+  padding: 0;
+}
+
+.card {
+  box-shadow: none;
+  overflow: initial;
+}
+
+.markdown li + li {
+  margin-top: 0;
+}
+
+.pagination {
+  column-gap: normal;
+}
+
+#__docusaurus > .navbar {
+  position: sticky;
+  height: var(--ifm-navbar-height);
+  padding: var(--ifm-navbar-padding-vertical) var(--ifm-navbar-padding-horizontal);
+}
+
+#__docusaurus .markdown > ul > li + li {
+  margin-top: var(--ifm-list-item-margin);
+}
