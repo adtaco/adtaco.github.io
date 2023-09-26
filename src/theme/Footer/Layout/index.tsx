@@ -16,7 +16,7 @@ export default function FooterLayout({
         'footer--dark': style === 'dark',
       })}
     >
-      <div className="container container-fluid">
+      <div className="container max-w-screen-2xl mx-auto px-6">
         <div className="flex flex-wrap mb-10">
           <div className="flex-initial flex justify-start items-end">
             <h1 className="text-5xl font-brand font-bold mb-0 text-white">{siteConfig.title}</h1>

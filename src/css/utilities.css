@@ -17,6 +17,10 @@
     @apply absolute z-1040 overflow-visible;
     contain: none;
   }
+
+  .icon-lg {
+    --ggs: 2;
+  }
 }
 
 @layer components {

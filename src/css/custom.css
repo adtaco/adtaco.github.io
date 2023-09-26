@@ -9,6 +9,7 @@
 @import "tailwindcss/components"; /* @tailwind components; */
 @import "tailwindcss/utilities";  /* @tailwind utilities; */
 @import "./utilities.css";
+@import "./icons/index.css";
 
 /* You can override the default Infima variables here. */
 :root {

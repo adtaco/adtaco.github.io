@@ -108,7 +108,7 @@ const config = {
       //   disableSwitch: false,
       // },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/adtaco-social-card.jpg',
       navbar: {
         title: 'adtaco',
         logo: {
@@ -117,13 +117,13 @@ const config = {
         },
         items: [
           {to: '/', label: 'Home', position: 'right', activeBaseRegex: '^/$'},
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'right',
-            label: 'Tutorial',
-          },
           {to: '/blog', label: 'Blog', position: 'right'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'right',
+          //   label: 'Tutorial',
+          // },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
