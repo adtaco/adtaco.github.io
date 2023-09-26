@@ -1,10 +1,15 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import AccordionItem from './AccordionItem';
 
 export function HomepageHeroBanner(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+
+  useEffect(() => {
+    const { Collapse, initTE } = require('tw-elements');
+    initTE({ Collapse });
+  }, []);
 
   return (
     <section id="HomepageHeroBanner" className="relative mt-12 mb-6">
