@@ -7,6 +7,7 @@ module.exports = {
   ],
   darkMode: ['class', '[data-theme="dark"]'], // hooks into docusaurus' dark mode settings
   important: false,
+  important: "#__docusaurus",
   theme: {
     extend: {
       fontFamily: {
