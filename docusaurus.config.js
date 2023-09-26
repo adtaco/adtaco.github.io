@@ -8,7 +8,7 @@ const darkCodeTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'adtaco',
-  tagline: 'Level up your customer\'s Shopify experience',
+  tagline: 'Level up your customer\'s shopping experience',
   favicon: 'img/favicon.ico',
   staticDirectories: ['public', 'static'],
 
